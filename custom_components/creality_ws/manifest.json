@@ -1,7 +1,6 @@
 {
   "domain": "creality_ws",
   "name": "Creality Print Viewer",
-  "version": "0.0.3",
   "codeowners": [
     "@Shidogn"
   ],
@@ -13,5 +12,6 @@
   "issue_tracker": "https://github.com/Shidogn/creality-print-viewer/issues",
   "requirements": [
     "websockets==15.0.1"
-  ]
+  ],
+  "version": "0.0.3"
 }
