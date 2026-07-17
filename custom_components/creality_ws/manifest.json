@@ -1,0 +1,17 @@
+{
+  "domain": "creality_ws",
+  "name": "Creality Print Viewer",
+  "version": "0.0.3",
+  "codeowners": [
+    "@Shidogn"
+  ],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/Shidogn/creality-print-viewer",
+  "integration_type": "device",
+  "iot_class": "local_push",
+  "issue_tracker": "https://github.com/Shidogn/creality-print-viewer/issues",
+  "requirements": [
+    "websockets==15.0.1"
+  ]
+}

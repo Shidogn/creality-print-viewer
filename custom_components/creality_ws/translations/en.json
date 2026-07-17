@@ -1,0 +1,63 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to a Creality printer",
+        "description": "Enter the printer's local IP address or hostname.",
+        "data": {
+          "host": "IP address or hostname"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Unable to connect to the printer.",
+      "invalid_host": "Enter a valid IP address or hostname.",
+      "unknown": "An unexpected error occurred."
+    },
+    "abort": {
+      "already_configured": "This printer is already configured."
+    }
+  },
+  "entity": {
+    "camera": {
+      "camera": {
+        "name": "Camera"
+      }
+    },
+    "sensor": {
+      "nozzle_temperature": {
+        "name": "Nozzle temperature"
+      },
+      "bed_temperature": {
+        "name": "Bed temperature"
+      },
+      "target_nozzle_temperature": {
+        "name": "Target nozzle temperature"
+      },
+      "target_bed_temperature": {
+        "name": "Target bed temperature"
+      },
+      "print_progress": {
+        "name": "Print progress"
+      },
+      "current_layer": {
+        "name": "Current layer"
+      },
+      "total_layers": {
+        "name": "Total layers"
+      },
+      "print_job_time": {
+        "name": "Print time"
+      },
+      "print_left_time": {
+        "name": "Remaining time"
+      },
+      "print_file_name": {
+        "name": "File name"
+      },
+      "feedrate_percentage": {
+        "name": "Feedrate"
+      }
+    }
+  }
+}

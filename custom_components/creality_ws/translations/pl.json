@@ -1,0 +1,63 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Połączenie z drukarką Creality",
+        "description": "Podaj lokalny adres IP lub nazwę hosta drukarki.",
+        "data": {
+          "host": "Adres IP lub nazwa hosta"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Nie udało się połączyć z drukarką.",
+      "invalid_host": "Podaj prawidłowy adres IP lub nazwę hosta.",
+      "unknown": "Wystąpił nieoczekiwany błąd."
+    },
+    "abort": {
+      "already_configured": "Ta drukarka jest już skonfigurowana."
+    }
+  },
+  "entity": {
+    "camera": {
+      "camera": {
+        "name": "Kamera"
+      }
+    },
+    "sensor": {
+      "nozzle_temperature": {
+        "name": "Temperatura dyszy"
+      },
+      "bed_temperature": {
+        "name": "Temperatura stołu"
+      },
+      "target_nozzle_temperature": {
+        "name": "Temperatura zadana dyszy"
+      },
+      "target_bed_temperature": {
+        "name": "Temperatura zadana stołu"
+      },
+      "print_progress": {
+        "name": "Postęp druku"
+      },
+      "current_layer": {
+        "name": "Bieżąca warstwa"
+      },
+      "total_layers": {
+        "name": "Liczba warstw"
+      },
+      "print_job_time": {
+        "name": "Czas druku"
+      },
+      "print_left_time": {
+        "name": "Pozostały czas"
+      },
+      "print_file_name": {
+        "name": "Nazwa pliku"
+      },
+      "feedrate_percentage": {
+        "name": "Prędkość zadana"
+      }
+    }
+  }
+}
